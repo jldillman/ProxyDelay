@@ -1,0 +1,12 @@
+{
+  "name": "maninthemiddle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "http-proxy": "^1.17.0"
+  },
+  "scripts": {
+    "start": "node http-proxy.js"
+  }
+}
