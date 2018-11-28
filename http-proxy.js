@@ -3,8 +3,8 @@ var http = require("http"),
 
 var proxy = httpProxy.createProxyServer();
 
+// sleep for 5 seconds
 var DELAY = 5000;
-var DELAY = 01;
 
 http
   .createServer(function(req, res) {
